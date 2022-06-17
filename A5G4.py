@@ -1,2 +1,0 @@
-#comenzar ejercicio
-#Logre ingresar 
