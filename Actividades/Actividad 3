@@ -1,5 +1,0 @@
-N1 = int(input("Ingrese el PRIMER numero: "))
-N2 = int(input("Ingrese el SEGUNDO numero: "))
-mult = N1 * N2 
-
-print("El resultado del PRODUCTO es:", mult)
