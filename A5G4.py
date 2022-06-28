@@ -19,7 +19,7 @@ anteriores
 11- función genrnd que retorna una lista con 50 números aleatorios.
 12- función que devuelva la suma de las combinaciones posibles de los números generados
 por la función genrnd tomados de a dos.
-13- función que devuelva el producto de las combinaciones posibles de los númerosgit 
+13- función que devuelva el producto de las combinaciones posibles de los números
 generados por la función genrnd tomados de a dos.
 14- función que devuelva el producto de las combinaciones posibles de los números
 generados por la función genrnd tomados de a dos.
