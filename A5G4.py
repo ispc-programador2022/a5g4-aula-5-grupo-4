@@ -3,9 +3,15 @@ import os
 import sys
 import time
 from turtle import clear
-from unittest import case
-opcion = 1
+
+
 # ------------------------------------------------------ Funciones principales -----------------------------------------------
+def tiempo():
+    time.time()
+
+
+opcion = 1
+
 def nodisp():
     print("")
     print('Por el momento la funcion elegida no se encuentra disponible')
@@ -36,8 +42,8 @@ def menu():
     \n 19- función que calcule devuelva el mínimo del vector obtenido en genrnd. \
     \n 20- función que calcule devuelva el máximo del vector obtenido en genrnd.\
     \n 21- función genrnd que retorna una lista con 500.000.000.000.000.000 números aleatorios.\
-    \n 22- medir el tiempo de ejecución del 16 al 21\
-    \n 23- medir el tiempo de ejecución del 22 y 23 \
+    \n 22- medir el tiempo de ejecución del 16 al 20\
+    \n 23- medir el tiempo de ejecución del 21 y 22 \
     \n Para salir del programa ingrese el nro 24')
 
     
@@ -73,6 +79,32 @@ elif opcion == 5:
     #Act5()
     nodisp()
     time.sleep(5)
+    menu()
+
+elif opcion == 21:
+    star21= tiempo()
+    #Act21()
+    nodisp()
+    end21 = tiempo()
+    fin21 = end21 - star21
+    print(fin21)
+    time.sleep(5)
+    menu()
+
+
+elif opcion == 22:
+    star22 = tiempo()
+    #Act22()
+    nodisp()
+    end22 = tiempo()
+    fin22 = end22 - star22
+    print (fin22)
+    time.sleep(5)
+    menu()
+
+elif opcion == 23:
+    print("El tiempo de ejecución de las funciones 21 y 22 es de: ")
+    time.sleep(15)
     menu()
 
 elif opcion == 24:
