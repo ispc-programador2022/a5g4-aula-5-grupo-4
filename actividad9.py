@@ -3,9 +3,11 @@ print("Función p1: Retorna el producto de los 2 primeros parámetros más un 3e
 
 from actividad3 import funcion_producto
 
+def funcion_p1(producto_total):
+    from actividad3 import funcion_producto
+    return((funcion_producto(num1*num2))*num3)
+
 num3 = int(input("Ingrese un tercer número: "))
 
-total = funcion_producto(num1,num2)*num3
-
-print ("El producto total es: ", total)
+print ("El producto total es: ", funcion_p1(producto_total))
 
