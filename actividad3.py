@@ -1,3 +1,6 @@
+print("Actividad 3")
+print("Función producto: Retorna el producto de 2 parámetros")
+
 def funcion_producto(num1, num2):
     return num1*num2
 
