@@ -1,5 +1,6 @@
-N1 = int(input("Ingrese el PRIMER numero: "))
+Def Actividad1(N1, N2):
+ N1 = int(input("Ingrese el PRIMER numero: "))
 N2 = int(input("Ingrese el SEGUNDO numero: "))
-sum = N1 + N2
+return N1 + N2
 
-print("El resultado de la SUMA es: ", sum)
+print("El resultado de la SUMA es: ", Actividad1(N1, N2))
